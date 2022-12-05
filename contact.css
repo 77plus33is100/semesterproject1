@@ -1,0 +1,83 @@
+fieldset{
+    border: 1px solid green;
+    background-color: #E9F2E9;
+}
+
+label{
+    float: left;
+}
+input{
+    float: right;
+}
+span{
+    color: red;
+}
+select{
+    float: right;
+}
+.form_w{
+    width: 400px;
+}
+#Name_div{
+    width: 250px;
+    height: 25px;
+}
+select{
+    height: 20px;
+    /* padding: 13px 0px; */
+}
+textarea{
+    float: right;
+    width: 380px;
+}
+.request{
+    margin-top: 20px;
+}
+.btn_submit{
+    padding: 10px 20px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+body{
+    background: #000000;
+    color: rgb(0, 0, 0);
+    margin: 100px auto;
+    }
+    
+    .rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    }
+    
+    .rating > input{
+     display:none;
+    }
+    
+    .rating > label {
+    position: relative;
+    width: .5em;
+    font-size: 9vw;
+    color: #FFD700;
+    cursor: pointer;
+    }
+    
+    .rating > label::before{
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+    }
+    
+    .rating > label:hover:before,
+    .rating > label:hover ~ label:before {
+    opacity: 1 !important;
+    }
+    
+    .rating > input:checked ~ label:before{
+    opacity:1;
+    }
+    
+    .rating:hover > input:checked ~ label:before{ 
+    opacity: 0.4;
+     }

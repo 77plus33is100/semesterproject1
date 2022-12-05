@@ -1,0 +1,194 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+    display: block;
+  
+}
+header{
+    background-color: #4010f1;
+    padding-left: 10px;
+    margin-top: 0px;
+
+
+}
+h1{
+color: #fff;
+padding-left:10px;
+padding-top: 10px;
+margin-bottom: 0px;
+}
+h2{
+    color: #c7db15;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+}
+h4{
+    padding-left:  100px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+
+}
+nav{
+    background-color: black;
+    padding: 20px 20px 40px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+nav a:hover{
+    color: #C7DB15;
+    text-decoration: underline;
+}
+ul  {
+    list-style-image: url(
+"https://contribute.geeksforgeeks.org/wp-content/uploads/listitem-1.png");
+}
+/* .team{
+list-style-image: none;
+} */
+main{
+    background-color: white;
+    padding: 0px 10px;
+
+}
+.img-top{
+    width: 100%;
+    height: 500px;
+
+}
+ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dis-inline{
+    display: inline-flex;
+}
+
+.bg{
+    background-image: url(main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 500px;
+    background-position: center;
+    padding: 10px 10px;
+    position: relative;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+
+    margin: 10px 30px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+  }
+  .p_name{
+    font-size: 18px;
+  }
+  .p_size{
+    font-size: 18px;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: #CAD03B;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.8;
+  }
+.products{
+    text-align: center;
+    font-size: 22px;
+
+}
+.btn_product{
+    padding: 10px 25px;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+.btn_product:hover{
+   
+    background-color: black;
+   
+    color: white;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 95%;
+    border: 1px solid green;
+    border-radius: 20px!important;
+    margin-top: 30px;
+    margin-left: 1%;
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    /* border: 1px solid black; */
+  }
+  
+  /* tr:nth-child(even){background-color: #f2f2f2} */
+  
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+   .call{
+    text-align: center;
+    background-color: green;
+    text-decoration: none!important;
+    color: black;
+    
+
+  }
+#contact{
+    width: 30%;
+    float: right;
+    display:block;
+    border: 5px dotted #000;
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #cad03b, #ffc37b, #ffcbcc, #ffe7fe, #ffffff);
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+.main-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: #CAD03B;
+    padding: 5px 0px;
+    bottom: 0px;
+    margin-top: 40px;
+}
+.footer-text{
+    text-align: center;
+}

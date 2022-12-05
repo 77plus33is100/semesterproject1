@@ -1,0 +1,33 @@
+body{
+    display: block;
+   margin: 0px;
+   padding: 0px;
+}
+article,aside, details, dl, figcaption, figure, footer, main{
+    display: block;
+    width: 100%;
+}
+nav,section{
+    display: block;
+}
+p, h1, h2, h3, h4{
+    margin: 0px;
+    padding: 5px;
+}
+ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dis-inline{
+    display: inline-flex;
+}
+.para{
+    padding: 10px 10px;
+}
+#contact{
+    width: 30%;
+    float:right;
+    border: 2px dotted solid #cad03b ;
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #cad03b, #ffc37b, #ffcbcc, #ffe7fe, #ffffff);
+}

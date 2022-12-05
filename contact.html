@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Appliance Galore </title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="layout_style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div id="layout">
+    <header>
+        <div class="dis-inline">
+            <img src="logo.png" height="60px" width="100px" alt="Your logo">
+            <h1>ApplianceGalore.com</h1>
+        </div>
+        <h4>Your appliance journey starts here ....</h4>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html">Home</a></li>
+
+        </ul>
+    </nav>
+    <section class="bg">
+        <h2 class="second-heading">Contact Us</h2>
+    </section>
+       <main>
+           <form action="mailto:appliancegalore@gmail.com" method="post">
+              <p>*Indicates Required information</p>
+             <fieldset>
+                <legend>Contact information</legend>
+                <div class="form_w">
+                  <label for="Name">Name<span>*</span> </label>
+                   <input type="text" name="" required id="Name_div"> </div><br> <br>
+                <div class="form_w">
+                  <label for="email">Email<span>*</span> </label>
+                   <input type="email" name="" required id="Name_div"> </div> <br> <br>
+                <div class="form_w">
+                  <label for="Name">Phone Number<span>*</span> </label>
+                   <input type="number" name="" required id="Name_div"></div>
+             </fieldset>
+             <fieldset class="request">
+                <legend>Request</legend>
+                <div class="form_w">
+                  <label for="Name">Request Topic <span>*</span> </label>
+                   <select name="" required  id="Name_div">
+                    <option value="Select one option">Select one option</option>
+                    <option value="">Inventory Inquiry</option>
+                    <option value="">Existing Purchase </option>
+                   </select> </div><br> <br>
+                <div class="form_w">
+                  <label for="email">Subject<span>*</span> </label>
+                   <input type="text" name="" required id="Name_div"> </div> <br> <br>
+                <div class="form_w">
+                  <label for="Name">Type Inquiry Here<span>*</span> </label>
+                   <textarea name="" required id="" cols="30" rows="10"></textarea>
+             </fieldset>
+             <fieldset class="request">
+                <legend>Do your want to be our mailing list</legend>
+                <label class="checkbox-inline">
+                    <input type="radio" value="" name="mail">Yes
+                  </label>
+                  
+                  <label class="checkbox-inline">
+                    <input type="radio" value=""  name="mail">  &nbsp;&nbsp;&nbsp;&nbsp;No
+                  </label>
+                 
+           
+             </fieldset>
+             <button class="btn_submit" type="submit">submit</button>
+           </form>
+       
+        </main>
+        <footer>
+            <p class="footer-text">Coypright by Frederick Schneider</p>
+        </footer>
+ 
+</div>
+</body>
+< ! ╌Here is an HTML code of a 5 star rating which I thought fit well in my contact page ╌>
+<div class="rating">
+  
+  <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+  <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+  <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+  <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+  <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+
+</div>
+</html>
